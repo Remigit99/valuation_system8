@@ -45,8 +45,8 @@ export const Navbar = ({ username = "ADEREMI ABIODUN" }) => {
     <nav className="w-full shadow-md">
       {/* Top Banner (UBA Branding) */}
       <div className="bg-uba-red text-white p-3 flex justify-between items-center italic">
-        <div className="flex flex-col">
-          <span className="text-xs opacity-90 not-italic">Logged in as:</span>
+        <div className="flex flex-col md:flex-row md:items-center gap-1">
+          <span className="text-xs opacity-95 not-italic">Logged in as:</span>
           <span className="text-sm md:text-base font-bold uppercase">{username}</span>
         </div>
         <div className="flex items-center gap-4">
