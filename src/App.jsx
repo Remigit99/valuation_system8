@@ -1,5 +1,6 @@
 
 import './App.css'
+import FacilityTable from './components/FacilityTable'
 import { Navbar } from './components/Navbar'
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
 
 <Navbar username="John Doe" />
 
-
+<FacilityTable/>
 
       
     </>
