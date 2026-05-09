@@ -1,6 +1,10 @@
+import { Search } from 'lucide-react';
+
 const FacilityTable = () => {
     const data = [
-        { account: "1017167980", solid: "0056", name: "GILBERTIGWEKA GLOBAL CONCEPT NIG LTD(2)", date: "3/25/2025 9:20:43 AM" }
+        { account: "1017167980", solid: "0056", name: "GILBERTIGWEKA GLOBAL CONCEPT NIG LTD(2)", date: "3/25/2025 9:20:43 AM" },
+        { account: "1024190080", solid: "0084", name: "JUST RIGHT NIGERIA PLC", date: "4/18/2026 12:15:04 PM" },
+        { account: "1083265810", solid: "0061", name: "NEW ERA GLOBAL RESOURCES NIG LTD", date: "9/21/2025 10:24:22 AM" },
     ];
 
     return (
@@ -15,12 +19,12 @@ const FacilityTable = () => {
                 <div className="flex max-w-md">
                     <input type="text" className="border flex-1 p-2 h-10 outline-none" />
                     <button className="bg-gray-200 border border-l-0 px-4 flex items-center justify-center">
-                        🔍
+                        <Search />
                     </button>
                 </div>
             </div>
 
-            <div className="mt-10">
+            <div className="w-full overflow-x-auto border border-gray-200 rounded-sm mt-10">
                 <table className="w-full text-left text-sm border-collapse">
                     <thead className="bg-uba-red text-white">
                         <tr>
