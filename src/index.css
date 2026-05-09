@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --color-uba-red: #DC1C19; 
+  /* --color-uba-red: #000;  */
+  --color-uba-dark: #222222;
+  --font-sans: "Fira Code", sans-serif, system-ui;
+}
